@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    
+}
+.container_center{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 67px;
+    line-height: 80px;
+}
+h6{
+    font-weight: 700;
+}
+/* CSS for banner section  */
+#banner{
+    min-width: 1200px;
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content:center;
+}
+.banner_right h1{
+    font-size: 67px;
+    line-height: 80px;
+    font-weight: 700;
+    padding: 15% 2% 6.9% 0;
+
+}
+.banner_right p{
+    line-height: 42px;
+    font-size: 30px;
+    padding: 0 12% 9.1% 0;
+}
+.banner_right a{
+    letter-spacing: .5px;
+    position: relative;
+    padding: 4px 0 0 11%;
+    color:black;
+    font-weight: 700;
+    font-size: 22px;
+}
+.banner_right a::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    left: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: -24px center;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    background-size: 60px;
+}
+
+/* CSS for Services section  */
+#services{
+    background-color: #181924;
+    color: white;
+    border-radius: 45px 45px 0 0;
+    padding: 60px 0px 80px 0px;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+}
+.left_arrow_one{
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #8b5fda;
+
+}
+.left_arrow{
+    display: flex;
+    align-items: center;
+}
+.content_one{
+    margin-left: 20px;
+}
+.left_arrow a{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -.23px;
+    line-height: 49px;
+    text-decoration: none;
+}
+.left_arrow p{
+    opacity: .67;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -.22px;
+    line-height: 35px;
+}
+.right_arrow{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.right_arrow a{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -.23px;
+    line-height: 49px;
+    text-decoration: none;
+
+}
+.right_arrow p{
+    opacity: .67;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -.22px;
+    line-height: 35px;
+}
+.content{
+    margin-right: 20px;
+    text-align: right;
+}
+
+/* CSS for portfolio section  */
+#portfolio_colors{
+    padding:100px 0px 40px 0px;
+
+}
+#portfolio_colors h2{
+    margin-bottom: 2%;
+
+}
+.portfolio{
+    display: flex;
+    padding-top: 12%;
+    justify-content: space-between;
+}
+.portfolio_left{
+    width: 70%;
+}
+.portfolio_left span{
+    position: relative;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 56px;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+.portfolio_left span::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 100%;
+    width: 72px;
+    height: 2px;
+    background: #fff;
+    margin-left: 10px;
+}
+.portfolio_left h2{
+    margin: 0 0 4%;
+}
+.portfolio_left p{
+    opacity:0.75;
+    line-height: 42px;
+    font-size: 30px;
+}
+.portfolio_right{
+    text-align: right;
+}
+.portfolio_right h6{
+    font-size: 29px;
+    line-height: 50px;
+    margin-bottom: 11px;
+    margin-top: 33px;
+    font-weight: 700;
+}
+.portfolio_right p{
+    opacity: .5;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 42px;
+}
+.wraper{
+    display: flex;
+}
+.portfolio_colors_left{
+    display: flex;
+    width: 70%;
+}
+
+.portfolio_colors_left ul{
+    list-style: none;
+    width: 21%;
+    margin: 0 1.8% 0 0;
+    padding-left: 0;
+}
+
+.first_row li{
+    padding: 13px 15px;
+    margin: 9px 0 7px;
+    color: #fff;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #181924;
+}
+.first_row li:nth-child(1){
+    opacity: .9;
+}
+.first_row li:nth-child(2){
+    opacity: .7;
+}
+.first_row li:nth-child(3){
+    opacity: .5;
+}
+.first_row li:nth-child(4){
+    opacity: .3;
+}
+.first_row li:nth-child(5){
+    opacity: .1;
+}
+.first_row li:nth-child(6){
+    padding-left: 5%;
+    margin-top: 40%;
+    color:black;
+    font-size: 24px;
+    line-height: 62px;
+    text-transform: uppercase;
+    margin-top: 78px;
+    background: 0 0;
+    font-weight: 700;
+}
+
+.second_row li{
+    padding: 13px 15px;
+    margin: 9px 0 7px;
+    color: #fff;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #e4e6f2;
+}
+.second_row li:nth-child(1){
+    opacity: .9;
+}
+.second_row li:nth-child(2){
+    opacity: .7;
+}
+.second_row li:nth-child(3){
+    opacity: .5;
+}
+.second_row li:nth-child(4){
+    opacity: .3;
+}
+.second_row li:nth-child(5){
+    opacity: .1;
+}
+.second_row li:nth-child(6){
+    padding-left: 5%;
+    margin-top: 40%;
+    color:black;
+    font-size: 24px;
+    line-height: 62px;
+    text-transform: uppercase;
+    margin-top: 78px;
+    background: 0 0;
+    font-weight: 700;
+}
+.third_row li{
+    padding: 13px 15px;
+    margin: 9px 0 7px;
+    color: #fff;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #8b5fda;
+
+}
+.third_row li:nth-child(1){
+    opacity:.9;
+}
+.third_row li:nth-child(2){
+    opacity: .7;
+}
+.third_row li:nth-child(3){
+    opacity: .5;
+}
+.third_row li:nth-child(4){
+    opacity: .3;
+}
+.third_row li:nth-child(5){
+    opacity: .1;
+}
+.third_row li:nth-child(6){
+    padding-left: 5%;
+    margin-top: 40%;
+    color:black;
+    font-size: 24px;
+    line-height: 62px;
+    text-transform: uppercase;
+    margin-top: 78px;
+    background: 0 0;
+    font-weight: 700;
+}
+.portfolio_colors_right{
+    width: 30%;
+    padding-left: 4.3%;
+}
+.portfolio_colors_right ul li{
+    padding: 0 0 2%;
+    opacity: .5;
+    font-size: 30px;
+    line-height: 42px;
+    padding: 5% 0 2%;
+    color:#212121;
+    list-style: none;
+}
+.portfolio_colors_right ul li:nth-child(1){
+   font-weight: 700;
+}
+.portfolio_colors_right ul li:nth-child(2){
+    font-weight: 500;
+}
+.portfolio_colors_right ul li:nth-child(3){
+    font-weight: 400;
+}
+.portfolio_colors_right ul li:nth-child(4){
+    font-weight: 300;
+}
+
+/* Responsive for mobile and tablet  */
