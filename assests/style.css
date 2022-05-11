@@ -447,7 +447,7 @@ max-width: 100%;
     line-height: 50px;
 }
 .solution{
-    max-width: 100%;
+    max-width: 50%;
     padding-left: 30px;
 }
 .solution h3{
@@ -459,6 +459,177 @@ max-width: 100%;
     font-size: 35px;
     line-height: 50px;
 }
+#visual-ui{
+    background-color: #181924;
+}
+.visual_ui_content_bottom{
+    display:flex;
+}
+.visual_ui_left{
+    background-color: #181924;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    padding: 60px 0px;
+}
+.visual_ui_content_image{
+    width: 31%;
+    padding: 0 15px;
+}
+.visual_ui_content_image img{
+    width: 100%;
+}
+
+.visual_ui_right{
+    background-color: #262836;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+.visual_ui_right_img{
+    width: 31%;
+    padding: 0 15px;
+}
+.visual_ui_right_img img {
+    width: 100%;
+}
+#dashboard{
+    padding: 80px 0px;
+}
+#dashboard img{
+ max-width: 100%;
+}
+#dashboard span{
+    color: #aaa;
+    font-size: 32px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1.34%;
+}
+#dashboard h2{
+    margin-bottom: 80px;
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+}
+#feedback{
+    color: #252427;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+.main_heading{
+    color: #252427;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    position: relative;
+    margin-bottom:30px;
+    display: block;
+}
+.main_heading:after{
+    content: "";
+    position: absolute;
+    top: 39%;
+    width: 79%;
+    left: 20%;
+    height: 2px;
+    background: #707070;
+    opacity: .12;
+}
+.mobile_apps{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.flight_app{
+    background-color: #181924;
+    width: 43%;
+    color: #fff;
+    /* padding: 30px 10px 30px 30px; */
+    padding: 4.7% 3% 3.2% 3.6%;
+
+
+}
+.flight_app span{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .06px;
+    line-height: 38px;
+    opacity: .72;
+    position: relative;
+}
+.mob_app::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    opacity: .62;
+    width: 69px;
+    height: 1px;
+    left: 111%;
+    top: 50%;
+}
+.flight_app h2{
+    padding: 30px 158px 25px 0px;
+    color: #fff;
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: .15px;
+    line-height: 65px;
+    
+}
+.messeging_app{
+    width: 43%;
+    background-color: #262836;
+    color: #fff;
+    /* padding: 30px 10px 30px 30px; */
+    padding: 4.7% 3% 3.2% 3.6%;
+
+
+}
+.mob_app_two{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .06px;
+    line-height: 38px;
+    opacity: .72;
+    position: relative;
+}
+.mob_app_two::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    opacity: .62;
+    width: 69px;
+    height: 1px;
+    left: 111%;
+    top: 50%;
+}
+.messeging_app h2{
+    padding: 15px 221px 40px 15px;
+    color: #fff;
+    font-size: 49px;
+    font-weight: 700;
+    letter-spacing: .15px;
+    line-height: 65px;
+   
+}
+.case_study{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: .06px;
+    line-height: 38px;
+    position: relative;
+    float: right;
+    padding-left: 15px;
+}
+
 /* Responsive for mobile and tablet  */
 @media only screen and (max-width: 480px) {
     /* CSS for Banner  */
