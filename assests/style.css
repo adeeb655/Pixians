@@ -7,6 +7,13 @@ body{
     box-sizing: border-box;
     
 }
+@font-face {
+    font-family: 'helvetica_neuemedium_extended';
+    src:url('helvetica_neue_medium_extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .container_center{
     max-width: 1190px;
     margin: 0 auto;
@@ -64,6 +71,7 @@ h6{
     text-align: center;
     line-height: 50px;
     font-size: 25px;
+    background-image: url("./images/card-sprw\ \(1\).png");
     background-repeat: no-repeat;
     background-position: -24px center;
     background-size: 60px;
@@ -75,7 +83,7 @@ h6{
     background-color: #181924;
     color: white;
     border-radius: 45px 45px 0 0;
-    padding: 60px 0px 80px 0px;
+    padding: 60px 0px 40px 0px;
 }
 .arrows{
     display: flex;
@@ -153,7 +161,6 @@ h6{
 }
 .portfolio{
     display: flex;
-    padding-top: 12%;
     justify-content: space-between;
 }
 .portfolio_left{
@@ -412,8 +419,8 @@ max-width: 100%;
     border-radius: 5px;
     font-size: 25px;
     display: inline-block;
-    width: 319px;
-    padding: 30px 15px;
+    width: 260px;
+    padding: 29px 12px;
     text-decoration: none;
     margin: 0px 10px;
 
@@ -424,8 +431,8 @@ max-width: 100%;
     border-radius: 5px;
     font-size: 25px;
     display: inline-block;
-    width: 319px;
-    padding: 30px 15px;
+    width: 260px;
+    padding: 29px 12px;
     text-decoration: none;
 }
 #solutions{
@@ -436,14 +443,15 @@ max-width: 100%;
 }
 .problem_faced{
     width: 80%;
+    padding-right: 30px;
 }
 .problem_faced h3{
-    font-size: 62px;
+    font-size: 55px;
     line-height: 70px;
     margin-bottom: 60px;
 }
 .problem_faced p{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
 }
 .solution{
@@ -451,12 +459,12 @@ max-width: 100%;
     padding-left: 30px;
 }
 .solution h3{
-    font-size: 62px;
+    font-size: 55px;
     line-height: 70px;
     margin-bottom: 60px;
 }
 .solution p{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
 }
 #visual-ui{
@@ -520,6 +528,7 @@ max-width: 100%;
     font-weight: 600;
     letter-spacing: 1.2px;
     position: relative;
+    margin-top: 100px;
 }
 .main_heading{
     color: #252427;
@@ -586,11 +595,9 @@ max-width: 100%;
     width: 43%;
     background-color: #262836;
     color: #fff;
-    /* padding: 30px 10px 30px 30px; */
     padding: 4.7% 3% 3.2% 3.6%;
-
-
 }
+
 .mob_app_two{
     color: #fff;
     font-size: 21px;
@@ -611,7 +618,7 @@ max-width: 100%;
     top: 50%;
 }
 .messeging_app h2{
-    padding: 15px 221px 40px 15px;
+    padding: 30px 221px 25px 0px;
     color: #fff;
     font-size: 49px;
     font-weight: 700;
@@ -620,7 +627,7 @@ max-width: 100%;
    
 }
 .case_study{
-    color: #fff;
+    color:#fff;
     font-size: 21px;
     font-weight: 500;
     letter-spacing: .06px;
@@ -629,13 +636,107 @@ max-width: 100%;
     float: right;
     padding-left: 15px;
 }
-
+.tools{
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 0 5.93%;
+    background-color: #181924;
+    margin-bottom: 5px;
+}
+.tools_content{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+ .tools_content img{
+     position: absolute;
+    width: 19%;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: rgba(255,255,255,.8);
+ }
+ .tools_content img:nth-child(1){
+    transform: translate(179%,100%) rotate(-38deg);
+    opacity: 1;
+ }
+ .tools_content img:nth-child(2){
+    transform: translate(208%,37%) rotate(-38deg);
+    opacity: 1;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+ }
+ .tools_content img:nth-child(3){
+    transform: translate(260%,-12%) rotate(-38deg);
+    opacity: 1;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+ }
+ .tools_content img:nth-child(4){
+    transform: translate(345%,118%) rotate(-38deg);
+    opacity: 1;
+    -webkit-transition-delay: .9s;
+    transition-delay: .9s;
+ }
+ .tools_content img:nth-child(5){
+    -webkit-transform: translate(398%,69%) rotate(-38deg);
+    transform: translate(398%,69%) rotate(-38deg);
+    opacity: 1;
+    -webkit-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+ }
+ .tools_content img:nth-child(6){
+    transform: translate(429%,7%) rotate(-38deg);
+    opacity: 1;
+    -webkit-transition-delay: 1.5s;
+    transition-delay: 1.5s;
+ }
+ .tools_heading{
+    position: absolute;
+    left: 7%;
+    top: 46%;
+ }
+ .tools_heading span{
+    color: #fff;
+    font-size: 32px;
+ }
+ .tools_heading h3{
+    font-size: 55px;
+    line-height: 70px;
+    color: #fff;
+    margin-bottom: 7%;
+    font-weight: 700;
+ }
+ .AI{
+    width: 79px;
+    height: 79px;
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    top: 22px;
+    font-weight: 700;
+ }
+ .AI span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #454545;
+    font-size: 32px;
+ }
 /* Responsive for mobile and tablet  */
 @media only screen and (max-width: 480px) {
     /* CSS for Banner  */
     #banner{
         display: flex;
         flex-direction: column;
+    }
+    .banner_left{
+        margin-left: 50px;
     }
     .banner_left img{
         max-width:84%;
@@ -682,6 +783,9 @@ max-width: 100%;
     .portfolio_left{
         width: 100%;
     }
+    .portfolio_left h2{
+        font-size: 50px;
+    }
     .portfolio_right{
         text-align: left;
         margin-top: 25px;
@@ -689,6 +793,12 @@ max-width: 100%;
     .portfolio_right h6{
         margin-top: 10px;
     }
+    #portfolio_colors h2{
+        margin-left: 12px;
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+   
     /* CSS for portfolio section  */
     .wraper{
         display: flex;
@@ -718,7 +828,7 @@ max-width: 100%;
     }
     .technologies {
         display: flex;
-        margin: 50px 0px 50px;
+        margin: 50px 0px 0px;
         width: 100%;
         flex-wrap: wrap;
     }
@@ -727,6 +837,16 @@ max-width: 100%;
     }
     .expertise_btn a:nth-child(1){
         margin:20px 10px;
+    }
+    #expertise{
+        padding: 0px 15px 36px 15px;
+        margin: 30px 0px;
+    }
+    #expertise h2{
+        font-size: 54px;
+    }
+    #expertise p{
+        font-size: 25px;
     }
     /* #solution{
         padding: 30px 10px;
@@ -743,7 +863,47 @@ max-width: 100%;
         max-width: 100%;
         padding: 0px 15px;
     }
-
+    .problem_faced h3{
+        margin-bottom: 30px;
+    }
+    .solution h3{
+        margin: 40px 0px 20px 0px;
+    }
+    #dashboard{
+        padding: 50px 15px;
+    }
+    .mobile_apps{
+        display: flex;
+        flex-direction: column;
+    }
+    .flight_app{
+        width: 93%;
+}
+.messeging_app{
+    width: 93%;
+    margin-top: 5px;
+}
+#technology{
+    margin: 0px 15px;
+}
+.tech span{
+        font-size: 36px;
+        font-weight: 700;
+        position: absolute;
+        top: 29%;
+        left: 29%;
+}
+.expertise_btn a:nth-child(1){
+    width: 200px;
+    padding: 15px 28px;
+}
+.expertise_btn a:nth-child(2){
+    width: 230px;
+    padding: 15px 15px;
+}
+#dashboard h2{
+    margin-bottom: 40px;
+}
 }
 @media only screen and (max-width:576px) {
     #banner{
