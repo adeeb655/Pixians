@@ -60,7 +60,7 @@ h6{
 }
 
 .banner_right a::before {
-    content: "";
+    content: "+";
     position: absolute;
     top: -30%;
     left: 0;
@@ -69,11 +69,10 @@ h6{
     border-radius: 50%;
     color: #fff;
     text-align: center;
-    line-height: 50px;
-    font-size: 25px;
-    background-image: url("./images/card-sprw\ \(1\).png");
+    line-height: 55px;
+    font-size: 39px;
     background-repeat: no-repeat;
-    background-position: -24px center;
+    background-position:center center;
     background-size: 60px;
     background-color: #8b5fda;
 }
@@ -84,6 +83,7 @@ h6{
     color: white;
     border-radius: 45px 45px 0 0;
     padding: 60px 0px 40px 0px;
+    margin-top: 60px;
 }
 .arrows{
     display: flex;
