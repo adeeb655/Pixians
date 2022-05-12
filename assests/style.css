@@ -659,38 +659,27 @@ max-width: 100%;
  }
  .tools_content img:nth-child(1){
     transform: translate(179%,100%) rotate(-38deg);
-    opacity: 1;
  }
  .tools_content img:nth-child(2){
     transform: translate(208%,37%) rotate(-38deg);
-    opacity: 1;
-    -webkit-transition-delay: .3s;
-    transition-delay: .3s;
+  
  }
  .tools_content img:nth-child(3){
     transform: translate(260%,-12%) rotate(-38deg);
-    opacity: 1;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s;
+   
  }
  .tools_content img:nth-child(4){
     transform: translate(345%,118%) rotate(-38deg);
     opacity: 1;
-    -webkit-transition-delay: .9s;
-    transition-delay: .9s;
  }
  .tools_content img:nth-child(5){
     -webkit-transform: translate(398%,69%) rotate(-38deg);
     transform: translate(398%,69%) rotate(-38deg);
     opacity: 1;
-    -webkit-transition-delay: 1.2s;
-    transition-delay: 1.2s;
  }
  .tools_content img:nth-child(6){
     transform: translate(429%,7%) rotate(-38deg);
     opacity: 1;
-    -webkit-transition-delay: 1.5s;
-    transition-delay: 1.5s;
  }
  .tools_heading{
     position: absolute;
@@ -784,8 +773,13 @@ max-width: 100%;
         width: 100%;
     }
     .portfolio_left h2{
-        font-size: 50px;
-    }
+        font-size: 30px;
+        line-height: 40px;
+        }
+        .portfolio_left span{
+            font-size: 25px;
+            line-height: 40px;
+        }
     .portfolio_right{
         text-align: left;
         margin-top: 25px;
@@ -903,6 +897,9 @@ max-width: 100%;
 }
 #dashboard h2{
     margin-bottom: 40px;
+}
+.portfolio_left p{
+    font-size: 23px;
 }
 }
 @media only screen and (max-width:576px) {
